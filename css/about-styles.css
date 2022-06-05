@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(135deg, #e6c15c, #5cdfe6); 
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    border-bottom: solid 1px;
+    padding-bottom: 2rem;
+    position: fixed;
+    width: 100%;
+    height: 8rem;
+    background: linear-gradient(0deg, #ffffff, 20%, #fafa00);
+    z-index: 1;
+}
+
+header > h1 {
+    font-family: "kingthings", sans-serif; 
+    font-size: 4rem;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    left: 0;
+}
+
+a.nava {
+    text-decoration: none;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin: 0px 1rem 0px 1rem;
+    font-size: 1rem;
+/*    border: 1px solid #000000;*/
+    box-sizing: border-box;
+    height: 2rem;
+    color: #000000;
+}
+
+#headerplant {
+    position: absolute;
+    height: 8rem;
+    width: 12rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+#contactinfo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    padding: 1rem;
+    border: #000000 solid 1px;
+    background-color: #b8faa2;
+}
+
+#headerpadding {
+    height: 10rem;    
+    width: 100%;
+}
+
+section.mainsection {
+    font-family: "kingsberry", sans-serif;
+    margin: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 75vw;
+    background-color: #faf9f0;
+}
+
+section.bubble {
+    border: solid 1px #000000;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+h2 {
+    margin-top: 0;
+}
